@@ -1,10 +1,10 @@
 # itmd562-wk2
 Information about Death Valley in a basic HTML CSS page
 
-###ITMD 462/562/862
-###Web Application Development
-###Week 2 – 8/27/2019
-###Assignment 2: HTML & CSS
+### ITMD 462/562/862
+### Web Application Development
+### Week 2 – 8/27/2019
+### Assignment 2: HTML & CSS
 
 Create an HTML and CSS document file about a favorite book, band, musician, artist, sport, hobby, etc.
 - Using an external CSS Stylesheet – Change the style of at least two elements
