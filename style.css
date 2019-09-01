@@ -1,0 +1,97 @@
+/* a link exists (including a link that has been visited) */
+a:link, a:visited {
+	color: #3498db;
+  text-decoration: none;
+  padding: 1px 12px;
+  text-align: center;
+  display: inline-block;
+}
+
+/* a link is being hovered over or is in the process of being clicked */
+a:hover, a:active {
+  color: black;
+  text-decoration: none;
+}
+
+/* a paragraph */
+p {
+  font-family: Lato, sans-serif; 
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+/* a main / large heading */
+h1 {
+  text-align: center;
+	font-family: Lato, sans-serif; 
+	font-weight: 300;
+  font-size: x-large;
+}
+
+/* the navigation section */
+.navigation{
+	font-family: Lato, sans-serif; 
+	font-weight: 300;
+  text-align: center;
+  font-size: small;
+}
+
+/* the list */
+.navigation ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* the list items */
+.navigation ul li {
+  display:inline;
+}
+
+/* the shaded line */
+hr { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+/* an image */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2%;
+}
+
+/* the general gallery format */
+.gallery {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 500px;
+  height: auto;
+  color: white;
+  position: relative;
+}
+
+/* a polaroid for an image to format the caption */
+.polaroid {
+	border-radius: 2px;
+  background-color: black;
+  padding: 20px;
+  font-family:'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+
+/* the footer */
+.footer{
+  clear: both;
+  text-align: center;
+  font-family: Lato, sans-serif; 
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+}
